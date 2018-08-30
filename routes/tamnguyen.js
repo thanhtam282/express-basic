@@ -10,11 +10,11 @@ var fs = require('fs');
 
 router.get('/', function (req, res, next) {
 	var obj;
-	fs.readFile('./db/home.json', 'utf8', function (err, data) {
+	fs.readFile('./db/tamnguyen.json', 'utf8', function (err, data) {
 		if (err) throw err;
 		obj = JSON.parse(data);
 		console.log(obj)
-		res.render('index', { datathanhtam: obj });
+		res.render('tamnguyen', { datashop: obj });
 		// 	title: 'Users List',
 		// 	data: obj.lists
 		//});

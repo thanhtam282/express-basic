@@ -1,0 +1,22 @@
+{
+	"data": {
+		"title": "tam nguyen",
+		"desc": "loasdf asdfjasd fasdf sdfkasd fasdjfas df",
+		"img": "https://blog.vietsol.net/uploads/files/2018/07/20/facebook.jpg",
+		"list": [
+			"nguyen thanh tam",
+			"nguyen tsdfsdf",
+			"aaaaaaaatam"
+		],
+		"news" : [
+			{
+				"name": "asd fasdf sd fsd f sdf",
+				"desc": "sdfsdfgdfg dfg df gdf gdf gg "
+			},
+			{
+				"name": "asd fasdf sd fsd f sdf",
+				"desc": "sdfsdfgdfg dfg df gdf gdf gg "
+			}
+		]
+	}
+}

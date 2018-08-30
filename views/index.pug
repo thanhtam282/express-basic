@@ -1,13 +1,26 @@
 extends layout
 
 block content
-	h1= title
+	h1= datathanhtam.data.title
 	figure
+		img(src=datathanhtam.data.img, alt="")
 		img(src="./img/logo.png", alt="")
-	p Welcome to #{title}
+	p=datathanhtam.data.desc
+	ul
+		- for(x=0;x<datathanhtam.data.list.length;x++)
+			li
+				if(x==1)
+					a(href="#") #{datathanhtam.data.list[x]} them them
+				else
+					a(href="#") #{datathanhtam.data.list[x]}
 
-	if per = true
-		p fdgfdg
-	else
-		p lofgsdfgdsfg
+	- for(x=0;x<datathanhtam.data.news.length;x++)
+		.item
+			h2=datathanhtam.data.news[x].name
+			p=datathanhtam.data.news[x].desc
+
+	//- if per = true
+	//- 	p fdgfdg
+	//- else
+	//- 	p lofgsdfgdsfg
 	

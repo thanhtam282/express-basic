@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	.container
+		.row
+			- for(x=0;x<datashop.data.length;x++)
+				.col-3.item.item-center
+					h6=datashop.data[x].desc
+					figure
+						img.img-fluid(src=datashop.data[x].img, alt="")
+						p $ #{datashop.data[x].price}
+					button.btn.btn-warning(type='button') #{datashop.data[x].button}
