@@ -4,28 +4,32 @@
 			"desc": "laptop",
 			"img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4598/4598800_sd.jpg",
 			"price": "10000",
-			"button":"buy"
+			"button":"buy",
+			"link":"#"
 
 		},
 		{
 			"desc": "laptop",
 			"img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4598/4598800_sd.jpg",
 			"price": "10000",
-			"button":"buy"
+			"button":"buy",
+			"link":"#"
 
 		},
 		{
 			"desc": "laptop",
 			"img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4598/4598800_sd.jpg",
 			"price": "10000",
-			"button":"buy"
+			"button":"buy",
+			"link":"#"
 
 		},
 		{
 			"desc": "laptop",
 			"img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4598/4598800_sd.jpg",
 			"price": "10000",
-			"button":"buy"
+			"button":"buy",
+			"link":"#"
 
 		}
 	]
